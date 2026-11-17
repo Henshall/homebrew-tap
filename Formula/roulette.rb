@@ -1,5 +1,5 @@
-# Source of truth: github.com/Henshall/roulette, packaging/homebrew/roulette.rb
-# that tarball (curl -fsSL <url> | shasum -a 256).
+# Published copy of github.com/Henshall/roulette, packaging/homebrew/roulette.rb.
+# On each release, update `url` and `sha256` there and copy the file here.
 class Roulette < Formula
   desc "Zero-edge roulette table for the terminal, with a croupier you can bribe"
   homepage "https://github.com/Henshall/roulette"
